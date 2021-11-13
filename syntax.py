@@ -1,4 +1,12 @@
-doit = True;doit = False
-doit = 1337
+doit = False
 
-print(doit)
+print("Checking...")
+
+a = 5
+
+if doit:
+    a = 0
+    doit = False
+    print("Set to False!")
+
+print(a)
